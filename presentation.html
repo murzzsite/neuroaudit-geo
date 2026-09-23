@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Презентация — GEOаудит</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo">
+      <svg class="logo__mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="11" fill="url(#lg)"/>
+        <circle cx="20" cy="14" r="3.4" fill="#fff"/><circle cx="11" cy="26" r="3.4" fill="#fff" fill-opacity="0.85"/><circle cx="29" cy="26" r="3.4" fill="#fff" fill-opacity="0.85"/>
+        <path d="M20 17.4L12.8 23.5M20 17.4L27.2 23.5M13.5 26H26.5" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#5B3DF0"/><stop offset="1" stop-color="#0EA5B7"/></linearGradient></defs>
+      </svg>
+      GEO<span class="logo__suffix">аудит</span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="materials.html" class="btn btn--ghost">Все материалы</a>
+      <a href="index.html#form" class="btn btn--primary">Заказать аудит</a>
+    </div>
+  </div>
+</div>
+
+<section class="doc-section" style="padding-top:56px;">
+  <div class="container">
+    <div class="pres-hero">
+      <div class="eyebrow">GEO-аудит · Презентация</div>
+      <h1>Что нейросети говорят о вашем бизнесе?</h1>
+      <p>Индекс видимости, галлюцинации и план действий по 8 платформам и 35+ сценариям — в одном PDF-отчёте за пару часов.</p>
+    </div>
+
+    <div class="doc-section__head">
+      <div class="eyebrow">Проблема</div>
+      <h2>Клиенты уже спрашивают ИИ вместо поисковика</h2>
+      <p>Вы не знаете, видят ли нейросети ваш бизнес, советуют ли его и где рассказывают о вас неправду — а это то, что напрямую влияет на решение клиента прийти к вам или к конкуренту.</p>
+    </div>
+
+    <div class="pres-grid">
+      <div class="pres-num"><b>8</b><span>нейросетей — ChatGPT, Яндекс GPT, GigaChat и другие крупные платформы</span></div>
+      <div class="pres-num"><b>35+</b><span>сценариев опроса — 7 реальных вопросов на каждую платформу</span></div>
+      <div class="pres-num"><b>300+</b><span>заказов выполнено с сентября 2026</span></div>
+      <div class="pres-num"><b>2 часа</b><span>среднее время формирования готового PDF-отчёта</span></div>
+    </div>
+
+    <div class="doc-section__head" style="margin-top:12px;">
+      <div class="eyebrow">Что в отчёте</div>
+      <h2>Индекс видимости (ИВ) 0–100</h2>
+      <p>Сводный балл по всем платформам и сценариям плюс детальная разбивка.</p>
+    </div>
+    <table class="calc-table" style="margin-bottom:40px;">
+      <thead><tr><th>Раздел отчёта</th><th>Что внутри</th></tr></thead>
+      <tbody>
+        <tr><td>Индекс видимости</td><td class="num">0–100 баллов по 8 платформам × 7 сценариям</td></tr>
+        <tr><td>Галлюцинации</td><td class="num">Список найденных ошибок с точной цитатой ответа ИИ</td></tr>
+        <tr><td>Источники цитирования</td><td class="num">На какие сайты опирается ИИ по вашей нише</td></tr>
+        <tr><td>Срез по конкуренту</td><td class="num">Тот же анализ по одному конкуренту на выбор</td></tr>
+        <tr><td>Рекомендации</td><td class="num">Как улучшить присутствие и войти в топ ответов ИИ</td></tr>
+      </tbody>
+    </table>
+
+    <div class="doc-section__head">
+      <div class="eyebrow">Тариф</div>
+      <h2>Один прозрачный тариф</h2>
+    </div>
+    <div class="pres-grid" style="grid-template-columns: 1fr;">
+      <div class="price__card" style="max-width:420px;">
+        <span class="price__badge">Промо −50%</span>
+        <div class="price__old">5 800 ₽</div>
+        <div class="price__new">2 900 ₽</div>
+        <div class="price__note">Разовая оплата, PDF-отчёт в течение пары часов. Рекомендуем повторять раз в 2 месяца.</div>
+        <a href="index.html#form" class="btn btn--primary btn--block" style="background:#fff; color:var(--accent-dark);">Заказать аудит</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> GEOаудит</span>
+    <a href="materials.html">Все материалы</a>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

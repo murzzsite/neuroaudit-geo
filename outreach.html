@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Аутрич — GEOаудит</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="doc-bar">
+  <div class="container doc-bar__inner">
+    <a href="index.html" class="logo">
+      <svg class="logo__mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="11" fill="url(#lg)"/>
+        <circle cx="20" cy="14" r="3.4" fill="#fff"/><circle cx="11" cy="26" r="3.4" fill="#fff" fill-opacity="0.85"/><circle cx="29" cy="26" r="3.4" fill="#fff" fill-opacity="0.85"/>
+        <path d="M20 17.4L12.8 23.5M20 17.4L27.2 23.5M13.5 26H26.5" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#5B3DF0"/><stop offset="1" stop-color="#0EA5B7"/></linearGradient></defs>
+      </svg>
+      GEO<span class="logo__suffix">аудит</span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="materials.html" class="btn btn--ghost">Все материалы</a>
+      <a href="index.html#form" class="btn btn--primary">Заказать аудит</a>
+    </div>
+  </div>
+</div>
+
+<div class="doc-hero">
+  <div class="container">
+    <div class="eyebrow">Аутрич</div>
+    <h1>Как писать первыми, а не только ждать заявки</h1>
+    <p>Шаблоны для холодных сообщений двум сегментам аудитории: агентствам/маркетологам и владельцам бизнеса.</p>
+  </div>
+</div>
+
+<section class="doc-section">
+  <div class="container">
+    <div class="doc-section__head">
+      <div class="eyebrow">Сегмент «Профи»</div>
+      <h2>Первое сообщение агентству / маркетологу</h2>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Сообщение 1</span>
+      <p>Здравствуйте! Заметил(а) вашу работу в маркетинге — делаю разовые GEO-аудиты: проверяю, что ChatGPT, Яндекс GPT и ещё 6 нейросетей говорят про бизнес клиентов, есть ли галлюцинации и в каком виде их советуют. Можно предлагать это как допуслугу своим клиентам. Интересно посмотреть демо-отчёт?</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Ответ на «а вы кто»</span>
+      <p>Работаю с сентября 2026, уже 300+ заказов. Автоматизированный опрос 8 нейросетей по 35+ сценариям, результат — PDF с индексом видимости, списком галлюцинаций и планом действий, готово за пару часов. Стоимость сейчас 2 900 ₽ за разовый аудит.</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Прогрев до созвона / заказа</span>
+      <p>Если удобно — могу сделать демонстрационный срез по одному из ваших текущих клиентов, чтобы вы увидели формат отчёта вживую перед тем, как предлагать это дальше.</p>
+    </div>
+  </div>
+</section>
+
+<section class="doc-section">
+  <div class="container">
+    <div class="doc-section__head">
+      <div class="eyebrow">Сегмент «Владельцы бизнеса»</div>
+      <h2>Первое сообщение владельцу малого/среднего бизнеса</h2>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Сообщение 1</span>
+      <p>Здравствуйте! Вопрос: вы знаете, что ChatGPT и другие нейросети отвечают, когда у них спрашивают про ваш бизнес? Делаю разовый аудит — проверяю 8 нейросетей по 35+ сценариям, показываю, видят ли вас, советуют ли и где рассказывают неправду. Результат — PDF за пару часов, сейчас промо-цена 2 900 ₽.</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Ответ на «а зачем мне это»</span>
+      <p>Всё больше людей спрашивают ИИ вместо поиска, прежде чем куда-то обратиться. Если ИИ либо не знает о вас, либо говорит неточные вещи — вы теряете часть клиентов ещё до того, как они попадут на ваш сайт. Аудит показывает это прямо сейчас, с конкретными примерами.</p>
+    </div>
+    <div class="msg-block">
+      <span class="msg-block__tag">Закрытие</span>
+      <p>Если интересно — скиньте название бизнеса и сайт (если есть), запущу проверку, отчёт придёт вам в течение пары часов после оплаты.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> GEOаудит</span>
+    <a href="materials.html">Все материалы</a>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
